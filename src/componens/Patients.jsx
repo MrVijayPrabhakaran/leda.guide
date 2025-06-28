@@ -5,15 +5,16 @@ const Patients = () => {
   return (
     <div className="bg-gray-900 text-gray-100 min-h-screen font-inter">
       <div className="max-w-6xl mx-auto px-4 md:px-8 py-8">
-        <section className="bg-black border border-gray-700 rounded-xl p-6 md:p-10 shadow-xl transition-transform transform hover:-translate-y-1 hover:shadow-2xl">
-          <h2 className="text-2xl sm:text-3xl font-bold border-b-2 border-purple-600 pb-2 mb-6 text-white">
+        <section className="bg-black border border-gray-700 rounded-xl p-4 sm:p-6 md:p-10 shadow-xl transition-transform transform hover:-translate-y-1 hover:shadow-2xl">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold border-b-2 border-purple-600 pb-2 mb-6 text-white">
             3. Patient Application Process
           </h2>
-          <p className="text-gray-300 mb-4">
+
+          <p className="text-gray-300 mb-4 text-sm sm:text-base">
             Patients can apply for appointments or register their details through a dedicated portal.
           </p>
 
-          <ol className="list-decimal list-inside text-gray-300 space-y-3 pl-4">
+          <ol className="list-decimal list-inside text-gray-300 space-y-4 pl-4 text-sm sm:text-base">
             <li>
               <strong>Access Patient Portal:</strong> Patients visit the clinic's public patient portal (e.g.,{" "}
               <a
@@ -38,7 +39,7 @@ const Patients = () => {
             </li>
           </ol>
 
-          <div className="w-full max-w-3xl mx-auto mt-6 rounded-lg p-[2px] bg-gradient-to-r from-purple-200 to-indigo-600 overflow-hidden">
+          <div className="w-full max-w-xl sm:max-w-2xl mx-auto mt-6 rounded-lg p-[2px] bg-gradient-to-r from-purple-200 to-indigo-600 overflow-hidden">
             <video
               src={PatientVideo}
               autoPlay
