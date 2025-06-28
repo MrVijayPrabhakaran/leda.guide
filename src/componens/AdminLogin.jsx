@@ -37,7 +37,7 @@ const AdminLogin = () => {
               your information.
             </li>
 
-            <li>
+            
               <div className="mt-4 flex justify-center p-2 bg-black rounded-lg">
                 <img
                   src={Dashboard}
@@ -45,14 +45,14 @@ const AdminLogin = () => {
                   className="w-full max-w-md sm:max-w-xl h-auto rounded-lg border border-gray-600 shadow-md"
                 />
               </div>
-            </li>
+            
 
             <li>
               <strong>Login to Dashboard:</strong> Once verified via email, you can log in using your registered
               email and password to access the Admin Dashboard.
             </li>
 
-            <li>
+          
               <div className="w-full max-w-xl mx-auto mt-6 p-[2px] bg-gradient-to-r from-purple-200 to-indigo-600 rounded-lg overflow-hidden">
                 <video
                   src={DashboardVid}
@@ -63,7 +63,7 @@ const AdminLogin = () => {
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
               </div>
-            </li>
+            
 
             <li>
               <strong>Email Verification:</strong> A verification email will be sent to the email address you provided.
